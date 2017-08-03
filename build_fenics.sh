@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo -H pip3 install ply
 sudo apt-get install libeigen3-dev
 
@@ -72,4 +73,7 @@ cd build/
 cmake ..
 make -j12
 sudo make install
+
+sudo -H pip3 install ipython 
+sudo -H pip3 install PyQt5
 
